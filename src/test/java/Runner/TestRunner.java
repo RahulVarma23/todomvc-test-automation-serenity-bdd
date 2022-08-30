@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		plugin = {"pretty", "html:target/cucumber-html-report"},
+		plugin = {"pretty", "html:target/cucumber-html-report.html"},
         features = "src/test/resources/features",
         glue = "stepdefs",
         monochrome = true      
