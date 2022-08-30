@@ -1,0 +1,7 @@
+### Maven template
+target/
+
+### binary files
+.classpath
+.project
+.settings
