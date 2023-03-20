@@ -18,7 +18,7 @@ public class CustomChromeDriver implements DriverSource {
             options.addArguments("--ignore-certificate-errors");
             options.setExperimentalOption("w3c", false);
             options.addArguments("--remote-allow-origins=*");
-            //options.addArguments("--headless");
+            options.addArguments("--headless");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
             DesiredCapabilities capabilities = new DesiredCapabilities();
